@@ -1036,6 +1036,7 @@ ul.menu-col > li:hover {
     font-size: 18px;
     font-weight: 500;
     color: #FFF;
+    white-space: nowrap;
 }
 .tel-info .tel-icon{
     width: 30px;
