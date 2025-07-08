@@ -1,0 +1,578 @@
+
+
+@media (max-width: 1400px){
+    .main_slider_area .rev_slider .tp-leftarrow {
+        left: -35px !important;
+    }
+    .main_slider_area .rev_slider .tp-rightarrow {
+        left: 103% !important;
+    }
+    .footer_up .form-container .btn-full {
+        padding: 11px 40px;
+    }
+}
+@media (max-width: 1300px){
+    .slider_area .carousel-captions .heading {
+        font-size: 40px;
+     }
+     .testimonial-section {
+        padding-top: 80px;
+     }
+     /*1300.............testimonial-section-End............*/
+
+}
+
+@media (max-width:1200px){
+    /*............1200slider_area mr_top-Start............*/
+    /*.slider_area .carousel-captions.caption-align-center {
+        width: 60%;
+    }*/
+    .slider_area .carousel-captions .heading {
+        font-size: 35px;
+    }
+    .slider_area .carousel-captions .heading {
+        line-height: 38px;
+    }
+    .slider_area .parent-btn {
+        margin-top: 30px;
+    }
+    /*............1200slider_area mr_top-End............*/
+    
+
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 35px;
+    }
+    #hero{
+       /* margin-top: 0;*/
+    }
+    /* 1024-............Banner-Start............*/
+/*    .slider_area .carousel-captions.caption-align-center {
+        width: 88%;
+    }*/
+    .slider_area .carousel-captions .heading {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .slider_area.home1-banner .carousel-captions.caption-align-center {
+        width: 50%;
+    }
+    .home1-banner.slider_area .col-lg-12 {
+        position: relative;
+        padding: 0;
+        height: 100%;
+        background-image: linear-gradient(to right, #000000, #000000e8, transparent);
+    }
+
+    .slider_area .carousel-captions p{
+
+        padding: 0px 0px 15px 0px;
+    }
+
+    .slider_area .parent-btn .common-btn {
+        font-size: 13px;
+    }
+    .slider_area .owl-nav .owl-prev, .slider_area .owl-nav .owl-next{
+        height: 60px;
+        line-height: 65px;
+    }
+
+    /* End Slider Css */
+
+    /* Start Barber About Area*/
+    .about-area .barber-heding-bx{
+        padding: 50px 77px 0;
+    }
+    .about-area .barber-about-bx{
+        width: 100%;
+        right: 22px;
+    }
+    .about-area .barber-heding-bx h1{
+        font-size: 60px;
+    }
+    .about-area .sign{
+        display: none;
+    }
+    /* End Barber About Area*/
+
+    /* Start Service Area*/
+    figure.effect-roxy h2{
+        padding: 10% 0 10px 0;
+    }
+    .grid figure{
+        width: 100%;
+    }
+    figure.effect-roxy .price{
+        margin-top: 15px;
+    }
+    /* End Service Area*/
+
+
+
+    .fea-point p{
+        padding: 0 40px;
+    }
+
+    /* Start testimonial Section*/
+
+    .testimonial-area{
+        padding: 0px 0 0px 0;
+    }
+    .testimonial-area .testimonial-inner{
+        padding: 100px 0 170px;
+    }
+    .testimonial-area .section-head{
+        text-align: center;
+    }
+    .testimonial-area .container-fluid{
+        max-width: 960px;
+    }
+    .testimonial-area .main-frame{
+        margin: 0;
+    }
+
+    /* Start video Section*/
+    .video-section{
+        padding: 0px 0 100px;
+    }
+
+
+    /* Start clients Section*/
+    #clients .owl-nav .owl-prev{
+        width: 45px;
+        height: 45px;
+        line-height: 135px;
+    }
+    #clients .owl-nav .owl-next{
+
+        width: 45px;
+        height: 45px;
+        line-height: 135px;  
+    }
+
+
+     /* Start Blog Section*/
+
+     #blog{
+        padding: 100px 0;
+     }
+     #blog .img-box img{
+        margin: auto;
+        display: flex;
+     }
+     #blog .cnt-col{
+        width: auto;
+     }
+
+    /*-------------------- Start Footer ------------------*/
+    .footer-widget .opening-hour span{
+        margin-left: 160px;
+    }
+
+   
+
+}
+
+@media (max-width: 992px){
+
+
+    #hero {
+        margin-top: 0;
+        background: url(../img/home-slider/slide-img-1.jpg) no-repeat center right -170px;
+    }
+    #hero .heading-box h1{
+        font-size: 45px;
+    }
+    /* 992............Banner-Start............*/
+    .slider_area.mr_top {
+        margin-top: 90px;
+    }
+    .slider_area{
+        height: auto;
+    }
+    .home1-banner.nobanner-slider.slider_area.mr_top {
+        background: url(../img/home-slider/slide-1.png) 110% top no-repeat;
+        background-size: cover;
+        margin-top: 85px;
+        min-height: inherit;
+        height: auto;
+    }
+    .slider_area .slide {
+        float: left;
+    }
+    .home1-banner.slider_area .carousel-captions {
+        padding: 46px 0px;
+        float: left;
+        position: inherit;
+        width: 100% !important;
+        -webkit-transform: inherit;
+        transform: inherit;
+    }
+    .slider_area .carousel-captions {
+        bottom: -561px;
+    }
+    .slider_area .carousel-captions .heading-red-base{
+        font-size: 30px;
+    }
+    .slider_area .carousel-captions .heading{
+        font-size: 28px;
+    }
+
+    /* 992............Banner-End............*/
+
+
+
+
+    .about-area .barber-about-bx{
+        right: 0;
+        background-color: #f0eae1;
+        padding-bottom: 70px;
+        padding-top: 0; 
+        position: inherit;   
+    }
+    .about-area .barber-heding-bx{
+        padding: 30px 50px 0px;
+    }
+    figure.effect-roxy .price {
+        margin-top: 50px;
+    }
+
+    /* Start testimonial-area */
+    .testimonial-block-outer{
+        width: auto;
+    }
+    .testimonial-block-outer .client-img{
+        width: 36%;
+    }
+    .testimonial-block-outer .text-box{
+        width: 60%;
+        padding: 30px 0 0 40px;
+    }
+    .testimonial-block-outer .quote-icon {
+        margin-bottom: 30px;
+    }
+    .testimonial-area .owl-nav .owl-prev{
+        margin-right: 0;
+        left: 75%;
+        right: inherit;
+    }
+    .testimonial-area .owl-nav .owl-next{
+        margin-right: 0;
+        right: 0;
+        left: inherit;
+    }
+    /* End testimonial-area */
+    .video-media{
+        width: 100%;
+    }
+    .team-section .sec-title h1{
+        font-size: 50px;
+    }
+    .service_title h3{
+        font-size: 22px;
+    }
+
+    /*-------------- Strat Footer -------------------*/
+
+    .footer_area{
+        padding: 80px 0 0px;
+    }
+    .footer-widget.mb-none{
+        margin-bottom: 0;
+    }
+    .footer-widget{
+        margin-bottom: 40px;
+    }
+    .footer-widget.pl-54{
+        padding-left: 0;
+    }
+    .footer-about{
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .f_title {
+        padding-bottom: 15px;
+    }
+
+
+
+    .fea-point p{
+        padding: 0 40px;
+    }
+
+    /* Start testimonial Section*/
+
+    .video-section .cnt-bx h1{
+        font-size: 33px;
+    }
+    .video-section .cnt-bx p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .banner_area{
+        margin-top: 90px;
+    }
+
+
+
+   
+}
+
+@media (max-width: 767px){
+    /*767............Banner-Start............*/ 
+    .slider_area.mr_top {
+        margin-top: 85px;
+    }
+    .slider_area .carousel-captions .heading {
+        font-size: 18px;
+    }
+    .slider_area .carousel-captions p {
+        font-size: 12px;
+    }
+    .slider_area .carousel-captions p i {
+        width: 8%;
+    }
+    /*767............Banner-End............*/ 
+    #service-sec .service-block {
+        padding-left: 15px;
+    }
+    #doc-profile-bg{
+        height: auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 735px){
+
+   .pr-xs-none{
+        padding-right: 0;
+    }
+    .mb-xs-none{
+        margin-bottom: 0 !important;
+    }
+    /*480............Banner-Start............*/
+
+    #hero{
+        height: 100vh;
+        background: url(../img/home-slider/slide-img-1.jpg) no-repeat center right -170px;
+    }
+    #hero .heading-box{
+        padding: 30px 0 0px 0;
+        top: 114px;
+
+    }
+    #hero .heading-box h1{
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .slider_area .middle{
+        top: 55%;
+    }
+    .slider_area h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .slider_area h2{
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+    .slider_area .btn-lg{
+        padding: 0px 15px;
+        font-size: 14px;
+        border-radius: 0;
+    }
+    .slider_area .owl-nav .owl-prev , .slider_area .owl-nav .owl-next{
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*............480-Banner-End............*/
+
+
+
+    .about-area .img-col{
+        padding: 10px;
+        background-color: #FFF;
+    }
+    .about-area .img-col img{
+        border:10px solid #FFF; 
+    }
+    .about-area .barber-heding-bx h1 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .about-area .barber-heding-bx{
+        padding: 30px 15px 0px;
+    }
+    .about-area .barber-about-bx{
+        padding: 0 15px 50px;
+    }
+
+    #fea-point{
+        padding-top: 50px;
+    }
+    .fea-point{
+        border-right: none;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    .fea-point{
+        padding: 30px 0;
+        margin-bottom: 0;
+    }
+    .fea-point .book-btn{
+        border-bottom: 1px solid #f0eae1;
+    }
+
+    .testimonial-block-outer{
+        background-color: transparent;
+    }
+    .testimonial-block-outer .client-img{
+        float: none;
+    }
+    .testimonial-block-outer .client-img{
+        width: 100%;
+    }
+    .testimonial-block-outer .text-box {
+        width: 100%;
+        padding: 30px 0 0 0px;
+    }
+    .testimonial-area .owl-nav .owl-prev {
+        margin-right: 0;
+        left: 58%;
+        right: inherit;
+        top: 93%;
+        width: 70px;
+        height: 70px;
+        line-height: 46px;
+    }
+    .testimonial-area .owl-nav .owl-next{
+        top: 93%;
+        width: 70px;
+        height: 70px;
+        line-height: 46px;
+    }
+
+    /*............Start video Section............*/
+
+    .video-section .cnt-bx{
+        padding-left: 0;
+    }
+    .video-section .list-col{
+        padding-left: 0;
+    }
+    .video-section{
+        padding: 0px 0 50px;
+    }
+    .video-media{
+        width: 100%;
+    }
+    .play-video{
+        height: 130px;
+        width: 130px;
+    }
+
+    .team-section .sec-title h1{
+        font-size: 35px;
+    }
+    .service__image.img-up-1 {
+        bottom: -90px;
+        z-index: 24;
+    }
+
+
+    #core-value .value{
+        font-size: 53px;
+        margin-bottom: 35px;
+    }
+
+    /*---------- Start Service-Sec ----------*/
+
+
+
+    .testimonial-area {
+        padding: 0 0 0 0;
+    }
+   
+    /*----------- End testimonial-area -----------------*/
+
+   
+    .blog-section{
+        padding: 100px 0px 50px
+    }
+    .newsblog-group{
+        margin-bottom: 20px;
+    }
+
+    /*............Start gallery Section............*/
+
+    .gallery{
+        padding-top: 150px;
+    }
+
+    /*............Start footer Section............*/
+    .footer_area{
+        padding: 80px 0 0px;
+    }
+    .footer-logo {
+        width: 65%;
+    }
+    .footer-about{
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .f_title h3{
+        font-size: 20px;
+    }
+    .subscribe-panel button {
+        top: 46px;
+    }
+    .email-letter .mail-bx{
+        margin-top: 10px;
+    }
+    .email-letter .mail-bx .form-group input[type=text]{
+        width: 100%;
+    }
+    .email-letter .mail-bx .btn{
+        width: 100%;
+    }
+    .main-header .header-menu{
+        display: none;
+    }
+    .banner_area{
+        margin-top: 90px;
+    }
+    .banner_area .banner_content h3{
+        font-size: 35px;
+    }
+    .whoweare-section{
+        padding: 50px 0;
+    }
+    .whoweare-content, .whoweare_main, .callappointment_main{
+        padding-left: 0;
+    }
+    .about-page .whoweare-content h3{
+        font-size: 22px;
+        line-height: 28px;
+        padding: 30px 0 15px 0;
+        text-align: left;
+    }
+    .about-page .whoweare-content p{
+        padding: 0;
+        text-align: left;
+    }
+
+}

@@ -1,0 +1,56 @@
+/* Start Testimonial Page Css */
+
+
+
+.testimonial-page{
+  width:100%;
+  float: left;
+  padding: 100px 0px 80px;
+  background-color: #f2f2f2;
+
+}
+.testimonial-page .testimonial-block-outer{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 30px;
+
+}
+.testimonial-block {
+
+}
+.testimonial-author{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.testimonial-author-img{
+    
+}
+.testimonial-author img{
+    border-radius: 50%;
+}
+.author-rating{
+    margin-bottom: 10px;
+}
+.author-name{
+    text-align: left;
+}
+.author-location{
+    text-align: left;
+}
+.testimonial-quote{
+    width: 85%;
+    float: left;
+}
+.testimonial-quote p{
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 767px){
+
+  
+
+}
