@@ -622,15 +622,18 @@
       
           navLinks.forEach(link => {
             link.addEventListener('click', () => {
+              // Close the menu visually
               hamburger.classList.remove('open');
               menuOuter.classList.remove('active');
       
-              // Restore scroll manually just in case
+              // Restore scrolling in case it's blocked
               document.body.style.overflow = '';
+              document.documentElement.style.overflow = '';
             });
           });
         });
       </script>
+      
       
       
 
