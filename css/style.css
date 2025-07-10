@@ -1011,9 +1011,8 @@ i:before {
 .about-area .barber-about-bx{
     width: 95%;
     z-index: 3;
-    right: 80px;
     position: absolute;
-    padding: 30px 50px 0px;
+    padding: 0px 50px 0px;
 }
 .about-area .sign{
     margin-top: 80px;
