@@ -614,7 +614,7 @@
     <script src="js/mobilemenu.js"></script>
     <script src="dist/jquery-simple-mobilemenu.js"></script>
 
-<!--     <script>
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
           const hamburger = document.getElementById('sm_menu_ham');
           const menuOuter = document.querySelector('.sm_menu_outer');
@@ -624,10 +624,14 @@
             link.addEventListener('click', () => {
               hamburger.classList.remove('open');
               menuOuter.classList.remove('active');
+      
+              // Restore scroll manually just in case
+              document.body.style.overflow = '';
             });
           });
         });
-      </script> -->
+      </script>
+      
       
 
 </body>
