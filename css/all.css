@@ -5,8 +5,8 @@
  html {
   scroll-behavior: smooth;
 }
-section {
-  scroll-margin-top: 50px; /* Adjust this to match your header height */
+#home, #about, #service, #gallery, #contact  {
+  margin-top: 75px;
 }
 .fa,
 .fas,
