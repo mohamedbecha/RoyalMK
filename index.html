@@ -623,17 +623,18 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
           const hamburger = document.getElementById('sm_menu_ham');
-          const navMenu = document.getElementById('mobile_menu');
-          const navLinks = navMenu.querySelectorAll('a');
-    
+          const menuOuter = document.querySelector('.sm_menu_outer');
+          const navLinks = document.querySelectorAll('.mobile_menu a');
+      
           navLinks.forEach(link => {
             link.addEventListener('click', () => {
               hamburger.classList.remove('open');
-              navMenu.classList.remove('open');
+              menuOuter.classList.remove('active');
             });
           });
         });
       </script>
+      
 
 </body>
 
