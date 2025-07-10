@@ -37,21 +37,6 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const hamburger = document.getElementById('sm_menu_ham');
-              const navMenu = document.getElementById('mobile_menu');
-              const navLinks = navMenu.querySelectorAll('a');
-        
-              navLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                  hamburger.classList.remove('open');
-                  navMenu.classList.remove('open');
-                });
-              });
-            });
-          </script>
-          
 </head>
 
 <body>
@@ -631,6 +616,20 @@
     <script src="js/mobilemenu.js"></script>
     <script src="dist/jquery-simple-mobilemenu.js"></script>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const hamburger = document.getElementById('sm_menu_ham');
+          const navMenu = document.getElementById('mobile_menu');
+          const navLinks = navMenu.querySelectorAll('a');
+    
+          navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+              hamburger.classList.remove('open');
+              navMenu.classList.remove('open');
+            });
+          });
+        });
+      </script>
 
 </body>
 
