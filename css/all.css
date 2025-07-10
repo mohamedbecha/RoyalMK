@@ -8,7 +8,7 @@
 #home, #book, #service, #gallery, #contact  {
   scroll-margin-top: 75px;
 }
-.logo-port {
+.logo-port, header.d-lg-none {
   background-color: black;
 }
 #sm_menu_ham span {
