@@ -5,7 +5,7 @@
  html {
   scroll-behavior: smooth;
 }
-#home, #about, #service, #gallery, #contact  {
+#home, #book, #service, #gallery, #contact  {
   scroll-margin-top: 75px;
 }
 .fa,
