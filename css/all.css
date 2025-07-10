@@ -8,6 +8,12 @@
 #home, #book, #service, #gallery, #contact  {
   scroll-margin-top: 75px;
 }
+.logo-port {
+  background-color: black;
+}
+#sm_menu_ham span {
+  background-color: white !important;
+}
 .fa,
 .fas,
 .far,
