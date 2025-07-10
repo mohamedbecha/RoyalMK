@@ -622,17 +622,22 @@
       
           navLinks.forEach(link => {
             link.addEventListener('click', () => {
-              // Close the menu visually
+              // Remove visual classes
               hamburger.classList.remove('open');
               menuOuter.classList.remove('active');
       
-              // Restore scrolling in case it's blocked
-              document.body.style.overflow = '';
-              document.documentElement.style.overflow = '';
+              // Ensure scrolling is re-enabled
+              document.body.style.overflow = 'auto';
+              document.documentElement.style.overflow = 'auto';
+      
+              // Reset touch interaction if blocked
+              document.body.style.touchAction = 'auto';
+              document.documentElement.style.touchAction = 'auto';
             });
           });
         });
       </script>
+      
       
       
       
