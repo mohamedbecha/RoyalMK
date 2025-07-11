@@ -496,6 +496,7 @@ ul.header_social {
     float: left;
     height: 100px;
     padding:0px;
+    background: black;
 }
 .main-header.scroll-header .header-menu {
     height:85px;
@@ -552,6 +553,11 @@ a.navbar-brand {
     margin: 0 0 0 0;
 }
 .navbar-nav {
+    width: 84%;
+    float: left;
+    padding-right: 40px;
+}
+.lang {
     width: 84%;
     float: left;
     padding-right: 40px;
