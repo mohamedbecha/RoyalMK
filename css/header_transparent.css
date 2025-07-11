@@ -562,7 +562,7 @@ a.navbar-brand {
     padding-right: 40px;
     padding-left: 90px;
 }
-.langLink {
+a.langLink {
     color: white;
     font-weight: bold;
     font-style: italic;
