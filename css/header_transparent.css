@@ -558,9 +558,15 @@ a.navbar-brand {
     padding-right: 40px;
 }
 .lang {
-    width: 84%;
     float: left;
     padding-right: 40px;
+    padding-left: 90px;
+}
+.langLink {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 .main-header .header-menu .navbar .navbar-nav > li > a {
     padding: 45px 0px 20px 0px;
