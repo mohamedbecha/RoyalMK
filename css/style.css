@@ -2101,9 +2101,9 @@ figure.effect-roxy:hover .price{
 .footer-widget .opening-hour span {
 
   display: block;
-  margin-left: 250px;
+  margin-left: 150px;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 20px;
   color: #FFF;
 }
